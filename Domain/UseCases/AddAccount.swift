@@ -17,6 +17,3 @@ public struct AddAccountModel: Model {
         self.passwordConfirmation = passwordConfirmation
     }
 }
-struct AccountModel {
-    
-}

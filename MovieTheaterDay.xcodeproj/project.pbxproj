@@ -14,6 +14,9 @@
 		79EB78D92C2B3D0200CC7CD8 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78D82C2B3D0200CC7CD8 /* DataTests.swift */; };
 		79EB78E22C2B3D6300CC7CD8 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EB78B62C2B322500CC7CD8 /* Domain.framework */; };
 		79EB78E32C2B3D6300CC7CD8 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79EB78B62C2B322500CC7CD8 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79EB78E82C2B66D000CC7CD8 /* CredentialRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78E72C2B66D000CC7CD8 /* CredentialRequestModel.swift */; };
+		79EB78EA2C2B673000CC7CD8 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78E92C2B673000CC7CD8 /* TokenModel.swift */; };
+		79EB78EC2C2B696C00CC7CD8 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78EB2C2B696C00CC7CD8 /* Authentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		79EB78CC2C2B3D0200CC7CD8 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EB78D32C2B3D0200CC7CD8 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EB78D82C2B3D0200CC7CD8 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
+		79EB78E72C2B66D000CC7CD8 /* CredentialRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialRequestModel.swift; sourceTree = "<group>"; };
+		79EB78E92C2B673000CC7CD8 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		79EB78EB2C2B696C00CC7CD8 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				79EB78BF2C2B332D00CC7CD8 /* AddAccount.swift */,
+				79EB78EB2C2B696C00CC7CD8 /* Authentication.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -127,6 +134,8 @@
 			children = (
 				79EB78C12C2B36C300CC7CD8 /* Model.swift */,
 				79EB78C52C2B3B8200CC7CD8 /* AccountModel.swift */,
+				79EB78E72C2B66D000CC7CD8 /* CredentialRequestModel.swift */,
+				79EB78E92C2B673000CC7CD8 /* TokenModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -302,9 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EB78E82C2B66D000CC7CD8 /* CredentialRequestModel.swift in Sources */,
 				79EB78C22C2B36C300CC7CD8 /* Model.swift in Sources */,
 				79EB78C02C2B332D00CC7CD8 /* AddAccount.swift in Sources */,
+				79EB78EA2C2B673000CC7CD8 /* TokenModel.swift in Sources */,
 				79EB78C62C2B3B8200CC7CD8 /* AccountModel.swift in Sources */,
+				79EB78EC2C2B696C00CC7CD8 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

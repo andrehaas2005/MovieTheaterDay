@@ -1,58 +1,36 @@
+//
+//  DataTests.swift
+//  DataTests
+//
+//  Created by Andre  Haas on 26/06/24.
+//
+
 import XCTest
-import Domain
+@testable import Data
 
-class RemoteAddAccount {
-    private let url: URL
-    private let httpClient: HttpPostClient
-    
-    init(url: URL, httpClient: HttpPostClient) {
-        self.url = url
-        self.httpClient = httpClient
-    }
-    
-    func add(addAccountModel: AddAccountModel){
-        httpClient.post(to: url, with: addAccountModel.toData())
-    }
-}
+final class DataTests: XCTestCase {
 
-protocol HttpPostClient {
-    func post(to url: URL, with data: Data?)
-}
+    override func setUpWithError() throws {
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
 
-final class RemoteAddAccountTests: XCTestCase {
-    
-    func test_add_should_call_httpclient_with_correct_url() {
-        let url = URL(string: "http://any-url.com")!
-        let (sut, httpClientSpy) = makeSut(url: url)
-        sut.add(addAccountModel: makeAddAccountModel())
-        XCTAssertEqual(httpClientSpy.url, url)
+    override func tearDownWithError() throws {
+        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-    
-    func test_add_should_call_httpclient_with_correct_data() {
-        let (sut, httpClientSpy) = makeSut()
-        let addAccountModel = makeAddAccountModel()
-        let data = addAccountModel.toData()
-        sut.add(addAccountModel: addAccountModel)
-        XCTAssertEqual(httpClientSpy.data, data)
-    }
-}
 
-extension RemoteAddAccountTests {
-    func makeSut(url: URL = URL(string: "http://any-url.com")!) -> (sut: RemoteAddAccount, httpClient: HttpClientSpy) {
-        let httpClientSpy = HttpClientSpy()
-        let sut = RemoteAddAccount(url: url, httpClient: httpClientSpy)
-        return (sut, httpClientSpy)
+    func testExample() throws {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Any test you write for XCTest can be annotated as throws and async.
+        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
+        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
-    func makeAddAccountModel() -> AddAccountModel {
-        return AddAccountModel(name: "any_name", email: "any_email", password: "any_password", passwordConfirmation: "any_password")
-    }
-    
-    class HttpClientSpy: HttpPostClient {
-        var url: URL?
-        var data: Data?
-        func post(to url: URL, with data: Data?) {
-            self.url = url
-            self.data = data
+
+    func testPerformanceExample() throws {
+        // This is an example of a performance test case.
+        self.measure {
+            // Put the code you want to measure the time of here.
         }
     }
+
 }

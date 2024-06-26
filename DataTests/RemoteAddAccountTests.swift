@@ -1,36 +1,53 @@
-//
-//  DataTests.swift
-//  DataTests
-//
-//  Created by Andre  Haas on 25/06/24.
-//
-
 import XCTest
-@testable import Data
+import Domain
 
-final class DataTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+class RemoteAddAccount {
+    private let url: URL
+    private let httpClient: HttpPostClient
+    
+    init(url: URL, httpClient: HttpPostClient) {
+        self.url = url
+        self.httpClient = httpClient
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func add(addAccountModel: AddAccountModel){
+        httpClient.post(to: url, with: addAccountModel.toData())
     }
+}
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+protocol HttpPostClient {
+    func post(to url: URL, with data: Data?)
+}
+
+final class RemoteAddAccountTests: XCTestCase {
+    
+    func test_add_should_call_httpclient_with_correct_url() {
+        let url = URL(string: "http://any-url.com")!
+        let httpClientSpy = HttpClientSpy()
+        let sut = RemoteAddAccount(url: url, httpClient: httpClientSpy)
+        let addAccountModel = AddAccountModel(name: "any_name", email: "any_email", password: "any_password", passwordConfirmation: "any_password")
+        sut.add(addAccountModel: addAccountModel)
+        XCTAssertEqual(httpClientSpy.url, url)
     }
+    
+    func test_add_should_call_httpclient_with_correct_data() {
+        let url = URL(string: "http://any-url.com")!
+        let httpClientSpy = HttpClientSpy()
+        let sut = RemoteAddAccount(url: url, httpClient: httpClientSpy)
+        let addAccountModel = AddAccountModel(name: "any_name", email: "any_email", password: "any_password", passwordConfirmation: "any_password")
+        let data = addAccountModel.toData()
+        sut.add(addAccountModel: addAccountModel)
+        XCTAssertEqual(httpClientSpy.data, data)
+    }
+}
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+extension RemoteAddAccountTests {
+    class HttpClientSpy: HttpPostClient {
+        var url: URL?
+        var data: Data?
+        func post(to url: URL, with data: Data?) {
+            self.url = url
+            self.data = data
         }
     }
-
 }

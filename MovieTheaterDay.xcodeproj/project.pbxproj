@@ -11,7 +11,7 @@
 		79EB78C22C2B36C300CC7CD8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78C12C2B36C300CC7CD8 /* Model.swift */; };
 		79EB78C62C2B3B8200CC7CD8 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78C52C2B3B8200CC7CD8 /* AccountModel.swift */; };
 		79EB78D42C2B3D0200CC7CD8 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EB78CC2C2B3D0200CC7CD8 /* Data.framework */; };
-		79EB78D92C2B3D0200CC7CD8 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78D82C2B3D0200CC7CD8 /* DataTests.swift */; };
+		79EB78D92C2B3D0200CC7CD8 /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78D82C2B3D0200CC7CD8 /* RemoteAddAccountTests.swift */; };
 		79EB78E22C2B3D6300CC7CD8 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EB78B62C2B322500CC7CD8 /* Domain.framework */; };
 		79EB78E32C2B3D6300CC7CD8 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79EB78B62C2B322500CC7CD8 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79EB78E82C2B66D000CC7CD8 /* CredentialRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78E72C2B66D000CC7CD8 /* CredentialRequestModel.swift */; };
@@ -57,7 +57,7 @@
 		79EB78C52C2B3B8200CC7CD8 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 		79EB78CC2C2B3D0200CC7CD8 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EB78D32C2B3D0200CC7CD8 /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79EB78D82C2B3D0200CC7CD8 /* DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
+		79EB78D82C2B3D0200CC7CD8 /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
 		79EB78E72C2B66D000CC7CD8 /* CredentialRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialRequestModel.swift; sourceTree = "<group>"; };
 		79EB78E92C2B673000CC7CD8 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
 		79EB78EB2C2B696C00CC7CD8 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 		79EB78D72C2B3D0200CC7CD8 /* DataTests */ = {
 			isa = PBXGroup;
 			children = (
-				79EB78D82C2B3D0200CC7CD8 /* DataTests.swift */,
+				79EB78D82C2B3D0200CC7CD8 /* RemoteAddAccountTests.swift */,
 			);
 			path = DataTests;
 			sourceTree = "<group>";
@@ -331,7 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79EB78D92C2B3D0200CC7CD8 /* DataTests.swift in Sources */,
+				79EB78D92C2B3D0200CC7CD8 /* RemoteAddAccountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

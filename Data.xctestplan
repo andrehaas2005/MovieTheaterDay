@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "2F3C7F34-66EE-4CEF-8782-349B0D6DEBE8",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MovieTheaterDay.xcodeproj",
+        "identifier" : "79EBC9F22C2C96DF009D2722",
+        "name" : "DataTests"
+      }
+    }
+  ],
+  "version" : 1
+}

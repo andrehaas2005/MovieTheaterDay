@@ -14,7 +14,7 @@ jobs:
     runs-on: macos-latest
     strategy:
         matrix:
-          destination: ['platforms: iOS 12.2, macOS 10.14']
+          destination: ['platforms: macOS 14.5']
     steps:
     - uses: actions/checkout@v4
     - name: Build

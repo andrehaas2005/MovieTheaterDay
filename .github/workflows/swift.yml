@@ -11,13 +11,13 @@ on:
 
 jobs:
   build:
-
     runs-on: macos-latest
-
+    strategy:
+        matrix:
+          destination: ['platforms: iOS 12.2, macOS 10.14']
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      run: xcodebuild clean build -project MovieTheaterDay.xcodeproj -scheme Data 
-      # -destination "${destination}"
+      run: xcodebuild clean build -project MovieTheaterDay.xcodeproj -scheme Data  -destination "${destination}"
     - name: Run tests
       run: swift test -v

@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "5b165865f83f4ce36bbf19f999eb4a6be0053b4d532bdc54e2b01c40c0307787"
+build_start_time: [1722433849, 63255000]
+build_end_time: [1722433852, 348204000]
+inputs:
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Erros/DomainError.swift": [1722284764, 604674103]
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Models/AccountModel.swift": [1719421075, 817591078]
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Models/CredentialRequestModel.swift": [1719349135, 215904819]
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Models/Model.swift": [1719337172, 376347796]
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Models/TokenModel.swift": [1719349243, 422787652]
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/UseCases/AddAccount.swift": [1719421094, 551282079]
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/UseCases/Authentication.swift": [1719350103, 737520019]

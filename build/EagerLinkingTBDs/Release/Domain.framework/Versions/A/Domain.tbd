@@ -1,0 +1,95 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s6Domain0A5ErrorOs0B0AAMc",
+            "_$s6Domain5ModelPAAE6toJsonSDySSypGSgyF",
+            "_$s6Domain15AddAccountModelVMn",
+            "_$s6Domain0A5ErrorOMn",
+            "_$s6Domain15AddAccountModelVAA0D0AAMc",
+            "_$s6Domain15AddAccountModelVSQAAMc",
+            "_$s6Domain15AddAccountModelV8passwordSSvg",
+            "_$s6Domain15AddAccountModelV2eeoiySbAC_ACtFZ",
+            "_$s6Domain15AddAccountModelV6encode2toys7Encoder_p_tKF",
+            "_$s6Domain12AccountModelVMa",
+            "_$s6Domain15AddAccountModelVAA0D0AAWP",
+            "_$s6Domain15AddAccountModelV4nameSSvs",
+            "_$s6Domain15AddAccountModelV20passwordConfirmationSSvg",
+            "_$s6Domain15AddAccountModelV20passwordConfirmationSSvM",
+            "_$s6Domain0A5ErrorO4hash4intoys6HasherVz_tF",
+            "_$s6Domain5ModelPAAE6toData10Foundation0D0VSgyF",
+            "_$s6Domain15AddAccountModelV5emailSSvpMV",
+            "_$s6Domain0A5ErrorO2eeoiySbAC_ACtFZ",
+            "_$s6Domain15AddAccountModelV4nameSSvg",
+            "_$s6Domain10AddAccountP3add0dC5Model10completionyAA0bcE0V_ys6ResultOyAA0cE0Vs5Error_pGctFTq",
+            "_$s6Domain12AccountModelVMn",
+            "_$s6Domain15AddAccountModelVSeAAMc",
+            "_$s6Domain15AddAccountModelV5emailSSvM",
+            "_$s6Domain10AddAccountMp",
+            "_$s6Domain0A5ErrorOSQAAMc",
+            "_$s6Domain0A5ErrorO9hashValueSivpMV",
+            "_$s6Domain10AddAccountP3add0dC5Model10completionyAA0bcE0V_ys6ResultOyAA0cE0Vs5Error_pGctFTj",
+            "_$s6Domain0A5ErrorON",
+            "_$s6Domain15AddAccountModelVMa",
+            "_$s6Domain15AddAccountModelV4name5email8password0G12ConfirmationACSS_S3StcfC",
+            "_$s6Domain15AddAccountModelV5emailSSvs",
+            "_$s6Domain15AddAccountModelV8passwordSSvM",
+            "_$s6Domain15AddAccountModelV4nameSSvpMV",
+            "_$s6Domain5ModelTL",
+            "_$s6Domain0A5ErrorO9hashValueSivg",
+            "_$s6Domain0A5ErrorOMa",
+            "_$s6Domain5ModelPSETb",
+            "_$s6Domain15AddAccountModelV8passwordSSvs",
+            "_$s6Domain15AddAccountModelV20passwordConfirmationSSvs",
+            "_$s6Domain15AddAccountModelVN",
+            "_$s6Domain15AddAccountModelVSEAAMc",
+            "_DomainVersionNumber",
+            "_$s6Domain5ModelPSeTb",
+            "_$s6Domain0A5ErrorO10unexpectedyA2CmFWC",
+            "_$s6Domain12AccountModelVN",
+            "_$s6Domain15AddAccountModelV5emailSSvg",
+            "_$s6Domain15AddAccountModelV4fromACs7Decoder_p_tKcfC",
+            "_$s6Domain0A5ErrorOSHAAMc",
+            "_DomainVersionString",
+            "_$s6Domain15AddAccountModelV4nameSSvM",
+            "_$s6Domain15AddAccountModelV8passwordSSvpMV",
+            "_$s6Domain5ModelPSQTb",
+            "_$s6Domain5ModelMp",
+            "_$s6Domain15AddAccountModelV20passwordConfirmationSSvpMV",
+            "_$s6Domain10AddAccountTL"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/Domain.framework/Versions/A/Domain"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "14.5",
+        "target": "x86_64-macos"
+      },
+      {
+        "min_deployment": "14.5",
+        "target": "arm64-macos"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

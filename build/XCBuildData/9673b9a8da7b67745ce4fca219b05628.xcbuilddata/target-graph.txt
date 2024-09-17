@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Domain' in project 'MovieTheaterDay' (no dependencies)

@@ -1,0 +1,39 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-macos14.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Domain
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol Model : Swift.Decodable, Swift.Encodable, Swift.Equatable {
+}
+extension Domain.Model {
+  public func toData() -> Foundation.Data?
+  public func toJson() -> [Swift.String : Any]?
+}
+public protocol AddAccount {
+  func add(addAccountModel: Domain.AddAccountModel, completion: @escaping (Swift.Result<Domain.AccountModel, any Swift.Error>) -> Swift.Void)
+}
+public struct AddAccountModel : Domain.Model {
+  public var name: Swift.String
+  public var email: Swift.String
+  public var password: Swift.String
+  public var passwordConfirmation: Swift.String
+  public init(name: Swift.String, email: Swift.String, password: Swift.String, passwordConfirmation: Swift.String)
+  public static func == (a: Domain.AddAccountModel, b: Domain.AddAccountModel) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AccountModel {
+}
+public enum DomainError : Swift.Error {
+  case unexpected
+  public static func == (a: Domain.DomainError, b: Domain.DomainError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Domain.DomainError : Swift.Equatable {}
+extension Domain.DomainError : Swift.Hashable {}

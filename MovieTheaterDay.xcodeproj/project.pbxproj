@@ -12,6 +12,10 @@
 		7936BD942C2DF9DB00E92F0A /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936BD8F2C2DF9DA00E92F0A /* HttpError.swift */; };
 		7936BD952C2DF9DB00E92F0A /* RemoteAddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7936BD912C2DF9DA00E92F0A /* RemoteAddAccount.swift */; };
 		79582ED72C5831C300D60ABD /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79582ED62C5831C300D60ABD /* DomainError.swift */; };
+		79582EDF2C5A8C8900D60ABD /* MovieTheaterDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79582EDE2C5A8C8900D60ABD /* MovieTheaterDayApp.swift */; };
+		79582EE12C5A8C8900D60ABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79582EE02C5A8C8900D60ABD /* ContentView.swift */; };
+		79582EE32C5A8C8B00D60ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79582EE22C5A8C8B00D60ABD /* Assets.xcassets */; };
+		79582EE72C5A8C8B00D60ABD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79582EE62C5A8C8B00D60ABD /* Preview Assets.xcassets */; };
 		79EB78C02C2B332D00CC7CD8 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78BF2C2B332D00CC7CD8 /* AddAccount.swift */; };
 		79EB78C22C2B36C300CC7CD8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78C12C2B36C300CC7CD8 /* Model.swift */; };
 		79EB78C62C2B3B8200CC7CD8 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78C52C2B3B8200CC7CD8 /* AccountModel.swift */; };
@@ -60,6 +64,12 @@
 		7936BD8F2C2DF9DA00E92F0A /* HttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		7936BD912C2DF9DA00E92F0A /* RemoteAddAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteAddAccount.swift; sourceTree = "<group>"; };
 		79582ED62C5831C300D60ABD /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
+		79582EDC2C5A8C8900D60ABD /* MovieTheaterDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTheaterDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79582EDE2C5A8C8900D60ABD /* MovieTheaterDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTheaterDayApp.swift; sourceTree = "<group>"; };
+		79582EE02C5A8C8900D60ABD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79582EE22C5A8C8B00D60ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79582EE42C5A8C8B00D60ABD /* MovieTheaterDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovieTheaterDay.entitlements; sourceTree = "<group>"; };
+		79582EE62C5A8C8B00D60ABD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79EB78B62C2B322500CC7CD8 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EB78BF2C2B332D00CC7CD8 /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
 		79EB78C12C2B36C300CC7CD8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -72,6 +82,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		79582ED92C5A8C8900D60ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79EB78B32C2B322500CC7CD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,12 +148,33 @@
 			path = Erros;
 			sourceTree = "<group>";
 		};
+		79582EDD2C5A8C8900D60ABD /* MovieTheaterDay */ = {
+			isa = PBXGroup;
+			children = (
+				79582EDE2C5A8C8900D60ABD /* MovieTheaterDayApp.swift */,
+				79582EE02C5A8C8900D60ABD /* ContentView.swift */,
+				79582EE22C5A8C8B00D60ABD /* Assets.xcassets */,
+				79582EE42C5A8C8B00D60ABD /* MovieTheaterDay.entitlements */,
+				79582EE52C5A8C8B00D60ABD /* Preview Content */,
+			);
+			path = MovieTheaterDay;
+			sourceTree = "<group>";
+		};
+		79582EE52C5A8C8B00D60ABD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79582EE62C5A8C8B00D60ABD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		79EB78792C2B277C00CC7CD8 = {
 			isa = PBXGroup;
 			children = (
 				79EB78B72C2B322500CC7CD8 /* Domain */,
 				79EB78CD2C2B3D0200CC7CD8 /* Data */,
 				79EB78D72C2B3D0200CC7CD8 /* DataTests */,
+				79582EDD2C5A8C8900D60ABD /* MovieTheaterDay */,
 				79EB78832C2B277C00CC7CD8 /* Products */,
 				79EB78E12C2B3D6300CC7CD8 /* Frameworks */,
 			);
@@ -148,6 +186,7 @@
 				79EB78B62C2B322500CC7CD8 /* Domain.framework */,
 				79EB78CC2C2B3D0200CC7CD8 /* Data.framework */,
 				79EB78D32C2B3D0200CC7CD8 /* DataTests.xctest */,
+				79582EDC2C5A8C8900D60ABD /* MovieTheaterDay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,6 +265,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		79582EDB2C5A8C8900D60ABD /* MovieTheaterDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79582EE82C5A8C8B00D60ABD /* Build configuration list for PBXNativeTarget "MovieTheaterDay" */;
+			buildPhases = (
+				79582ED82C5A8C8900D60ABD /* Sources */,
+				79582ED92C5A8C8900D60ABD /* Frameworks */,
+				79582EDA2C5A8C8900D60ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieTheaterDay;
+			productName = MovieTheaterDay;
+			productReference = 79582EDC2C5A8C8900D60ABD /* MovieTheaterDay.app */;
+			productType = "com.apple.product-type.application";
+		};
 		79EB78B52C2B322500CC7CD8 /* Domain */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79EB78BC2C2B322500CC7CD8 /* Build configuration list for PBXNativeTarget "Domain" */;
@@ -292,6 +348,9 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					79582EDB2C5A8C8900D60ABD = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					79EB78B52C2B322500CC7CD8 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -322,11 +381,21 @@
 				79EB78B52C2B322500CC7CD8 /* Domain */,
 				79EB78CB2C2B3D0200CC7CD8 /* Data */,
 				79EB78D22C2B3D0200CC7CD8 /* DataTests */,
+				79582EDB2C5A8C8900D60ABD /* MovieTheaterDay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		79582EDA2C5A8C8900D60ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79582EE72C5A8C8B00D60ABD /* Preview Assets.xcassets in Resources */,
+				79582EE32C5A8C8B00D60ABD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79EB78B42C2B322500CC7CD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,6 +420,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		79582ED82C5A8C8900D60ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79582EE12C5A8C8900D60ABD /* ContentView.swift in Sources */,
+				79582EDF2C5A8C8900D60ABD /* MovieTheaterDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79EB78B22C2B322500CC7CD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +477,82 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		79582EE92C5A8C8B00D60ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MovieTheaterDay/MovieTheaterDay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieTheaterDay/Preview Content\"";
+				DEVELOPMENT_TEAM = X8H927JWHE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrehaas.MovieTheaterDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79582EEA2C5A8C8B00D60ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MovieTheaterDay/MovieTheaterDay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MovieTheaterDay/Preview Content\"";
+				DEVELOPMENT_TEAM = X8H927JWHE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrehaas.MovieTheaterDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		79EB78A52C2B277E00CC7CD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -519,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -556,6 +711,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -593,6 +749,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -630,6 +787,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -702,6 +860,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		79582EE82C5A8C8B00D60ABD /* Build configuration list for PBXNativeTarget "MovieTheaterDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79582EE92C5A8C8B00D60ABD /* Debug */,
+				79582EEA2C5A8C8B00D60ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		79EB787D2C2B277C00CC7CD8 /* Build configuration list for PBXProject "MovieTheaterDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

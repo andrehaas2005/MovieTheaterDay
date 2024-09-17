@@ -1,0 +1,45 @@
+{
+  "" : {
+    "const-values" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Domain-master.swiftconstvalues",
+    "dependencies" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Domain-master.d",
+    "diagnostics" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Domain-master.dia",
+    "emit-module-dependencies" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Domain-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Domain-master-emit-module.dia",
+    "swift-dependencies" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Domain-master.swiftdeps"
+  },
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Erros/DomainError.swift" : {
+    "index-unit-output-path" : "/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/DomainError.o",
+    "llvm-bc" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/DomainError.bc",
+    "object" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/DomainError.o"
+  },
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Models/AccountModel.swift" : {
+    "index-unit-output-path" : "/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/AccountModel.o",
+    "llvm-bc" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/AccountModel.bc",
+    "object" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/AccountModel.o"
+  },
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Models/CredentialRequestModel.swift" : {
+    "index-unit-output-path" : "/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/CredentialRequestModel.o",
+    "llvm-bc" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/CredentialRequestModel.bc",
+    "object" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/CredentialRequestModel.o"
+  },
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Models/Model.swift" : {
+    "index-unit-output-path" : "/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Model.o",
+    "llvm-bc" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Model.bc",
+    "object" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Model.o"
+  },
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/Models/TokenModel.swift" : {
+    "index-unit-output-path" : "/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/TokenModel.o",
+    "llvm-bc" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/TokenModel.bc",
+    "object" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/TokenModel.o"
+  },
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/UseCases/AddAccount.swift" : {
+    "index-unit-output-path" : "/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/AddAccount.o",
+    "llvm-bc" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/AddAccount.bc",
+    "object" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/AddAccount.o"
+  },
+  "/Users/andrehaas/Downloads/MovieTheaterDay/Domain/UseCases/Authentication.swift" : {
+    "index-unit-output-path" : "/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Authentication.o",
+    "llvm-bc" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Authentication.bc",
+    "object" : "/Users/andrehaas/Downloads/MovieTheaterDay/build/MovieTheaterDay.build/Release/Domain.build/Objects-normal/arm64/Authentication.o"
+  }
+}

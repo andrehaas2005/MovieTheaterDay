@@ -16,6 +16,7 @@
 		79582EE12C5A8C8900D60ABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79582EE02C5A8C8900D60ABD /* ContentView.swift */; };
 		79582EE32C5A8C8B00D60ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79582EE22C5A8C8B00D60ABD /* Assets.xcassets */; };
 		79582EE72C5A8C8B00D60ABD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79582EE62C5A8C8B00D60ABD /* Preview Assets.xcassets */; };
+		79A99E342CD13846005BCF8C /* ExtesionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A99E332CD13846005BCF8C /* ExtesionHelpers.swift */; };
 		79EB78C02C2B332D00CC7CD8 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78BF2C2B332D00CC7CD8 /* AddAccount.swift */; };
 		79EB78C22C2B36C300CC7CD8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78C12C2B36C300CC7CD8 /* Model.swift */; };
 		79EB78C62C2B3B8200CC7CD8 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB78C52C2B3B8200CC7CD8 /* AccountModel.swift */; };
@@ -70,6 +71,7 @@
 		79582EE22C5A8C8B00D60ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79582EE42C5A8C8B00D60ABD /* MovieTheaterDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovieTheaterDay.entitlements; sourceTree = "<group>"; };
 		79582EE62C5A8C8B00D60ABD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79A99E332CD13846005BCF8C /* ExtesionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtesionHelpers.swift; sourceTree = "<group>"; };
 		79EB78B62C2B322500CC7CD8 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EB78BF2C2B332D00CC7CD8 /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
 		79EB78C12C2B36C300CC7CD8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -168,6 +170,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		79A99E322CD13819005BCF8C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				79A99E332CD13846005BCF8C /* ExtesionHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		79EB78792C2B277C00CC7CD8 = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +234,7 @@
 		79EB78CD2C2B3D0200CC7CD8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				79A99E322CD13819005BCF8C /* Helpers */,
 				7936BD902C2DF9DA00E92F0A /* Http */,
 				7936BD922C2DF9DA00E92F0A /* UseCases */,
 			);
@@ -449,6 +460,7 @@
 			files = (
 				7936BD952C2DF9DB00E92F0A /* RemoteAddAccount.swift in Sources */,
 				7936BD942C2DF9DB00E92F0A /* HttpError.swift in Sources */,
+				79A99E342CD13846005BCF8C /* ExtesionHelpers.swift in Sources */,
 				7936BD932C2DF9DB00E92F0A /* HttpPostClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
